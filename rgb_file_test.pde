@@ -33,7 +33,7 @@ void draw() {
      rect(5+maxX+offsetX, y+24, 25, constrain(maxY/10,15,30), 2);
   }
   scale(1.2);
-  text(maxX + "x" + maxY + "     (use mouse or arrow keys to find resolution)",30,12);
+  text((maxX+1) + "x" + maxY + "     (use mouse or arrow keys to find resolution)",30,12);
 }
 
 void mouseMoved() {
