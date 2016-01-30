@@ -28,7 +28,6 @@ void draw() {
     }
   }
   noStroke();
-  println(max(maxY/5,30));
   for (int y=0; y<=height; y+=constrain(maxY/5,30,50)) {
      rect(5, y-4, 25, constrain(maxY/10,15,30), 2);
      rect(5+maxX+offsetX, y+24, 25, constrain(maxY/10,15,30), 2);
